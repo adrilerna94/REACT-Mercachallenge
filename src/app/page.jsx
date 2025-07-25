@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { Card, CardBody, Typography } from "@/styles/ui";
+
 export default function Home() {
 
   return (
@@ -7,6 +10,7 @@ export default function Home() {
           <Typography variant="h1" color="amber" className="font-bold">
             🚀 Bienvenidos a la Misión: Merca Challenge
           </Typography>
+          <Link href= "/products"><Typography variant= "h3" color= "blue">Go to Products</Typography></Link>
         </CardBody>
       </Card>
     </main>
